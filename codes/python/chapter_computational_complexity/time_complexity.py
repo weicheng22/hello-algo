@@ -22,7 +22,8 @@ def linear(n: int) -> int:
     return count
 
 
-def array_traversal(nums: list[int]) -> int:
+# def array_traversal(nums: list[int]) -> int:
+def array_traversal(nums: list) -> int:
     """线性阶（遍历数组）"""
     count = 0
     # 循环次数与数组长度成正比
@@ -41,7 +42,7 @@ def quadratic(n: int) -> int:
     return count
 
 
-def bubble_sort(nums: list[int]) -> int:
+def bubble_sort(nums: list) -> int:
     """平方阶（冒泡排序）"""
     count = 0  # 计数器
     # 外循环：未排序区间为 [0, i]
